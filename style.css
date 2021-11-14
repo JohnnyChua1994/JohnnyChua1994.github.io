@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'cwTeXYen', sans-serif;
+    font-weight:100;
+    letter-spacing: 5px;
+    color: #129;
+    background: url(double-bubble-outline.png);
+}
+
+h1{
+    font-size:26px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+      
+.blog-post p{
+    font-size:20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+}
+
+.blog-img{
+    width: 90%
+}
+
+#author-text{
+    font-size: 18px;
+}
+
+.author-text{
+    font-size:18px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto 0 auto;
+    margin-top: 20px;
+}
+
+.blog-post{
+    float:left;
+    width:73%;
+    padding: 30px;
+    background-color: #fff;
+    margin-right: 2%;
+    border: 1px solid #eae7e5;
+    border-radius: 50px;
+    position: relative;
+}
+
+#post-date{
+    position:absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 16px;
+}
+
+.author-post{
+    float: left;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border:1px solid #eae7e5;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.author-post img{
+    width: 150px;
+    border-radius:50%;
+}
+
+.other-posts{
+    float:left;
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border:1px solid #eae7e5;
+    border-radius: 50px;
+    margin-top: 20px
+    
+}
+
+.other-posts p{
+    font-size: 16px
+}
+
+.post{
+    border-bottom:1px solid #eae7e5;
+    margin-bottom:10px;
+    padding-bottom: 10px;
+}
+
+.post:last-child{
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
